@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects - Adrian Tugade</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo"><span>Po</span>rtfolio.</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" id="logoutBtn"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <h1><span>MY</span> PROJECTS</h1>
+    </section>
+
+    <section class="projects-section">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="static">Static Pages</button>
+                <button class="filter-btn" data-filter="enhanced">Enhanced Pages</button>
+                <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <div class="project-card" data-category="static">
+                    <div class="project-img">
+                        <img src="images/project1.png" alt="Plainstatic Page">
+                    </div>
+                    <div class="project-info">
+                        <h3>Plainstatic Page</h3>
+                        <p>My first HTML project with basic structure.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+
+                        </div>
+                        <a href="myprojects/my_painstatic_page.html" target="_blank" class="project-link">View Project
+                            <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="enhanced">
+                    <div class="project-img">
+                        <img src="images/project2.png" alt="Enhanstatic Page">
+                    </div>
+                    <div class="project-info">
+                        <h3>Enhanstatic Page</h3>
+                        <p>Enhanced version with better styling.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+
+                        </div>
+                        <a href="myprojects/adrian_enhanstatic_page.html" target="_blank" class="project-link">View
+                            Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="portfolio">
+                    <div class="project-img">
+                        <img src="images/project3.png" alt="Home & Story Page">
+                    </div>
+                    <div class="project-info">
+                        <h3>Home & Story Page</h3>
+                        <p>Multi-page website with storytelling elements and navigation.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Responsive</span>
+                        </div>
+                        <a href="myprojects/homepage.html" target="_blank" class="project-link">View Project <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="portfolio">
+                    <div class="project-img">
+                        <img src="images/project4.png" alt="Educational Portfolio">
+                    </div>
+                    <div class="project-info">
+                        <h3>Educational Portfolio</h3>
+                        <p>Current portfolio website with no advanced features and interactivity.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+
+                        </div>
+                        <a href="myprojects/portfolio.html" target="_blank" class="project-link">View Project <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section">
+        <h2>My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <span>HTML5</span>
+                        <div class="progress-bar">
+                            <div style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>CSS3</span>
+                        <div class="progress-bar">
+                            <div style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="progress-bar">
+                            <div style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Design & Tools</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <span>Responsive Design</span>
+                        <div class="progress-bar">
+                            <div style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>UI/UX Principles</span>
+                        <div class="progress-bar">
+                            <div style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Wireframing</span>
+                        <div class="progress-bar">
+                            <div style="width: 82%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-media">
+                <div class="footer-left">
+                    <h3>Multo - Cup of Joe</h3>
+                    <video controls>
+                        <source src="assets/video.mp4" type="video/mp4">
+                        Your browser does not support video.
+                    </video>
+                </div>
+                <div class="footer-info">
+                    <p>&copy; 2025 Adrian Tugade. All rights reserved.</p>
+                    <p>Educational Portfolio - Built with HTML5, CSS3 & JavaScript</p>
+                </div>
+                <div class="footer-right">
+                    <h3>Listen to Multo</h3>
+                    <audio controls>
+                        <source src="assets/audio.mp3" type="audio/mpeg">
+                        Your browser does not support audio.
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
